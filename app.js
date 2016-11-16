@@ -63,7 +63,7 @@ app.delete('/delete/:id', function(req, res){
 	  	[req.params.id]);
 
 		done();
-		res.send(200);
+		res.sendStatus(200);
 	});
 });
 
